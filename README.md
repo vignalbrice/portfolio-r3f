@@ -1,10 +1,16 @@
-# r3f-vite-starter
-A boilerplate to build R3F projects
+# Brice Vignal Portfolio
+
+## Presentation
+
+Professional portfolio made and built with React.js, React Three Fiber and Three.js
+
+## Installation
 
 ```
 yarn
 yarn dev
 ```
 
+## Preview
 
-![image](https://user-images.githubusercontent.com/6551176/221732091-23ee52cb-4150-42fa-b998-43628d7a6b0d.png)
+![https://www.bricevignal.com/](/public/website.png)
