@@ -1,11 +1,20 @@
-@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;600;700&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 #root {
-  width: 100vw;
+  width: 100%;
+  /* 100vh compte la barre d'URL des navigateurs mobiles : le contenu est coupé
+     et saute pendant le scroll. dvh suit la hauteur réellement visible. */
   height: 100vh;
+  height: 100dvh;
+}
+
+html,
+body {
+  /* Empêche tout débordement latéral et le rebond horizontal sur iOS */
+  overflow-x: hidden;
+  overscroll-behavior-x: none;
 }
 
 body {
